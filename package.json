@@ -5,10 +5,10 @@
     "prepublish": "rollup -c && uglifyjs d3.js -c -m -o d3.min.js"
   },
   "devDependencies": {
-    "d3-selection": "^0.7.2",
-    "d3-transition": "^0.2.9",
-    "rollup": "^0.26.3",
-    "rollup-plugin-node-resolve": "^1.5.0",
-    "uglify-js": "^2.6.2"
+    "d3-selection": "^1.0.0",
+    "d3-transition": "^1.0.0",
+    "rollup": "^0.33.0",
+    "rollup-plugin-node-resolve": "^1.7.1",
+    "uglify-js": "^2.7.0"
   }
 }
